@@ -1,8 +1,5 @@
 # IMDb Movie Chatbot (M.A.X!)
 
-<img src="https://lordicon.com/icons/wired/lineal/62-film" width="100" height="100" />
-
-
 **M.A.X! (Movie Advisor Xpert)** is an IMDb movie chatbot that provides information about movies, directors, genres, and more. Users can ask questions related to movies, and M.A.X! will respond with relevant information from the IMDb database.
 
 ## Table of Contents
