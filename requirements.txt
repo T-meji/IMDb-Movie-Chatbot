@@ -1,0 +1,7 @@
+# Packages required to run project
+streamlit
+openai
+python-dotenv
+langchain
+pinecone-client
+streamlit-chat
