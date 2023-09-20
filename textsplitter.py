@@ -57,7 +57,7 @@ def ingest_docs(pinecone_env: PineconeCredentials, csv_file: str, wiki_query: st
 # Making sure wiki_query only returns information relevant to the dataset
 if __name__ == "__main__":
     pinecone_env = init_pinecone()
-    csv_file = "C:\\Users\\Tolan\\Documents\\GitHub\\IMDb-Movie-Chatbot\\IMDB_Cleaned_Data.csv"
+    csv_file = "C:\\Users\\TolaniOladimeji\\IMDb-Movie-Chatbot\\IMDB_Cleaned_Data.csv"
     wiki_query = [
     "North by Northwest (film)",
     "The Godfather (film)",
