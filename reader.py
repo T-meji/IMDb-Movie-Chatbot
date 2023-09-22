@@ -1,6 +1,6 @@
 from langchain.document_loaders import CSVLoader, WikipediaLoader
 
-csv_file = "C:\\Users\\TolaniOladimeji\\IMDb-Movie-Chatbot\\IMDB_Cleaned_Data.csv"
+csv_file = ".\\IMDB_Cleaned_Data.csv"
 
 def csv_doc_loader(csv_file):
     """

@@ -18,7 +18,7 @@ def main():
 
     # Initialize session state for chat history, user_input, and bot_response
     chat_history = []
-
+    print("Test", st.session_state)
     if "user_input" not in st.session_state:
         st.session_state.user_input = []
 
@@ -50,7 +50,8 @@ def main():
 
     # Display the chat history
     st.write("Chat History:")
-    if st.session_state.get(chat_history):
+    
+    if st.session_state.get("chat_history"):
         for prompt, response in zip(
             st.session_state.user_input, st.session_state.bot_response
         ):
