@@ -1,4 +1,4 @@
-# Import packages
+# Import packages 
 import os
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
