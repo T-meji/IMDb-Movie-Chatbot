@@ -52,9 +52,9 @@ Before you begin, ensure you have met the following requirements:
 
    ```python
    # env.py
-   openai_api_key = "your_openai_api_key"
-   pinecone_api_key = "your_pinecone_api_key"
-   pinecone_environment_region = "your_environment_region"
+   OPENAI_API_KEY = "your_openai_api_key"
+   PINECONE_API_KEY = "your_pinecone_api_key"
+   PINECONE_ENVIRONMENT_REGION = "your_environment_region"
    ```
 
 4. Load the IMDb dataset into your preferred database system and configure the data source in the code.
