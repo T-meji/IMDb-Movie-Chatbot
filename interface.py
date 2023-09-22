@@ -50,7 +50,7 @@ def main():
 
     # Display the chat history
     st.write("Chat History:")
-    if st.session_state.chat_history:
+    if st.session_state.get(chat_history):
         for prompt, response in zip(
             st.session_state.user_input, st.session_state.bot_response
         ):

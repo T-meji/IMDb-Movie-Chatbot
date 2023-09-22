@@ -12,7 +12,7 @@ def csv_doc_loader(csv_file):
     Returns:
     - list: A list of loaded CSV documents.
     """
-    loader = CSVLoader(csv_file, encoding="utf-8")
+    loader = CSVLoader(csv_file)
     docs = loader.load()
     return docs
 
